@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+/*BODY*/
+body {
+   font-family: 'Dosis', sans-serif;
+   background-color: #EAFAF1;
+   margin: 0;
+   padding: 0;
+}
+
+/*HEADER*/
+header {
+   display: inline;
+}
+
+/*NAV*/
+nav {
+   background-color: #27AE60;
+   padding: 10px;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+nav span {
+   margin: 20px;
+}
+
+nav span a {
+   font-size: 40px;
+   font-weight: bold;
+   text-decoration: none;
+   color: white;
+}
+
+nav ul {
+   float: right;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav li a {
+   font-size: 20px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+
+nav li a:hover {
+   font-weight: bold;
+}
+
+/*MAIN*/
+main {
+   overflow: auto;
+}
+
+
+.image-container {
+   position: relative;
+}
+
+img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+.textimage-container {
+   color: white;
+   position: absolute;
+   bottom: 30%;
+   left: 20px;
+}
+
+.textimage1 {
+   font-size: 50px;
+   font-weight: bold;
+}
+
+.textimage2 {
+   font-size: 30px;
+   margin-top: 20px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   background-color: white;
+   margin-top: 20px;
+   margin-right: 20px;
+   margin-left: 20px;
+}
+
+h1 {
+   color: ##196F3D
+}
